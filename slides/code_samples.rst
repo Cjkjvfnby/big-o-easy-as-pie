@@ -2,7 +2,7 @@ Code samples
 ==============
 
 Simple operations
-------
+-----------------
 
 .. exec_code::
     :filename: code/simple.py
@@ -10,7 +10,7 @@ Simple operations
 
 
 Sequential operations is added
-------
+------------------------------
 
 .. exec_code::
     :filename: code/sequential.py
@@ -20,7 +20,7 @@ This code complexity is O(n) + O(n) -> O(n)
 
 
 Nested is multiplied
-----
+--------------------
 
 .. exec_code::
     :filename: code/nested.py
