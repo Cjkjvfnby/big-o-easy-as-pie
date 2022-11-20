@@ -1,20 +1,11 @@
 [flake8]
 ignore = E203, E501, W503, PLC0301,  # handled by black
-         ANN101, ANN204, ANN401,
-         D1,
-         PLC0114, PLC0115, PLC0116,  # Pylint docs
-         PLE0401,  # Skip pylint imports
+         PLC0114, PLC0115, PLC0116, Pylint docstrings
+         PLE0401,
 
 exclude =
     *_venv
     venv_*
     venv
-max-cognitive-complexity = 5
-per-file-ignores =
-    # No docs and annotation required for tests
-    tests/*.py:    D10, D101, D103, S101, ANN
-    conftest.py: D10, D101, D103, S101, ANN
-    # Skip unused imports in __init__ files
-    __init__.py: F401
-
-doctests = True
+    code/*
+    conf.py

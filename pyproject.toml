@@ -7,4 +7,4 @@ multi_line_output = 3
 skip_gitignore=true
 
 [tool.pylint.MAIN]
-good-names=["e", "_"]
+good-names=["e", "_", "x", "y", "ax", "f"]

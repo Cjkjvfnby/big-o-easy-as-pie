@@ -1,0 +1,6 @@
+def foo(a: list):
+    for x in a:  # O(n)
+        ...
+
+    for y in a:  # O(n)
+        ...
