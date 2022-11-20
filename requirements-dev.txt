@@ -1,4 +1,5 @@
 -r requirements-ci.txt
 
 pre-commit==2.20.0
-
+# script to make some images
+matplotlib==3.6.2
