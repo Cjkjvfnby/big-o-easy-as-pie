@@ -2,6 +2,8 @@
 
 Slides for a presentation about big O notation.
 
+Slides available at: https://cjkjvfnby.github.io/big-o-easy-as-pie/
+
 # Development
 
 ## Install dev requirements

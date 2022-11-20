@@ -102,13 +102,12 @@ Python implementation
 
 
 Linked list
-+++++++++++
+-----------
 
 .. image:: /_static/images/linked_list.png
   :width: 400
 
 A sequence of nodes with value and link to the next one.
-
 
 .. list-table:: Linked list operations
     :header-rows: 1
@@ -139,18 +138,12 @@ Python implementation
   this one is more complex, since have 2 links one to the child as a linked list and
   another to the parent, so you could iterate in both directions.
 
-
-More to read
-------------
-
-- `TimeComplexity`_ of basic Python collections.
-
 Summary
 -------
 
 Datastructures is an essential part of the everyday programmers life.
-Knowing what is inside is a good think.
-In addition to this one, knowledge about hashmap (dict) will cover 90% of requirements.
+Knowing what is inside is a good thing.
+`TimeComplexity`_ of basic Python collections, is the document that worth reading.
 
 
 .. _array.array: https://docs.python.org/3/library/array.html

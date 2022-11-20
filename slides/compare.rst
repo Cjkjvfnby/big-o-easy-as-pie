@@ -1,27 +1,28 @@
-Wighting Tomatoes
-=================
+Weighting Tomatoes
+==================
 
 .. image:: /_static/images/tomato.jpg
    :width: 200
-   :align: right
+
 
 Which one is heavier?
 ---------------------
 
-You could not weight them by the picture.
-Weight might be different in different places. Like on earth and on Uranus.
-You can compare them.
+You couldn't weight them by the picture. But you could easily compare them.
+Comparing is very powerful technique used by us daily.
 
 How to weight algorithm?
 ------------------------
 
 - Make implementation
-- Choose computer (CPU, disc, mem)
+- Choose computer (CPU, disc, memory)
 - Choose data
 - Measure execution time
 
-Abstraction
------------
+Can we compare them?
+--------------------
+
+We can compare algorithms if we abstract from hardware and input.
 
 .. list-table:: Abstract elements
    :widths: 50 50
@@ -32,7 +33,7 @@ Abstraction
    * - computer and implementation
      - abstract operation
    * - input
-     - function that return operation for input
+     - function that return a number of operations for input
 
 Now to weight our algorithm you need to weight two functions.
 
@@ -103,9 +104,8 @@ You have much more operations than data
        9  18  27  36  45  54  63  72  81  90
       10  20  30  40  50  60  70  80  90 100
 
-
 On a plane
-----------
+++++++++++
 
 .. image:: /_static/images/constant.png
   :width: 400
@@ -116,13 +116,11 @@ On a plane
 .. image:: /_static/images/quadratic.png
   :width: 400
 
-
 All together
-------------
+++++++++++++
 
 .. image:: /_static/images/all.png
   :width: 400
-  :align: right
 
 We are looking not into the difference in specific point,
 but into how difference between them grows with number of inputs.
@@ -136,7 +134,6 @@ Smart names
 The big O notation describes that functions.
 Instead of function you use **O**, and instead of **x** any letter,
 but usually **n** is used.
-
 
 .. list-table:: Functions vs big O notation
    :header-rows: 1

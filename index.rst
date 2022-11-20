@@ -5,10 +5,11 @@
 ======================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    slides/why
    slides/compare
    slides/big_o_rules
    slides/code_samples
    slides/datastructures
+   slides/summary
