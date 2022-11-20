@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/code%20style-black-000000.svg)
 
+Slides for a presentation about big O notation.
+
 # Development
 
 ## Install dev requirements
@@ -13,7 +15,7 @@ pip install -r requirements-dev.txt
   pre-commit install
   pre-commit install --hook-type commit-msg
   ```
-- update to the latest versions 
+- update to the latest versions
   ```shell
   pre-commit autoupdate
   ```
@@ -23,7 +25,14 @@ pip install -r requirements-dev.txt
 pre-commit run --all-files
 ```
 
-## Run test
+## Regenerate graphs if somethng changed.
+
 ```shell
-pytest --cov=main --cov-report html
+draw_graphs/make_images.py
+```
+
+## Build documentation
+
+```shell
+make html
 ```
