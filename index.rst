@@ -14,3 +14,4 @@
    slides/code_samples
    slides/datastructures
    slides/summary
+   slides/bonus
