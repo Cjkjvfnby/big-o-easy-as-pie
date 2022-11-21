@@ -11,7 +11,7 @@ In my opinion there are 3 reasons to know about it.
 Efficient code
 --------------
 
-Web developers does not work with big data often.
+Web developers don't work with big data often.
 Simple common sense helps a lot:
 
 * Do not process to many things, let database do the work.
@@ -25,7 +25,7 @@ Good code
 ---------
 
 Using right datastructure for your code probably won't affect performance.
-But it will make you intention more clear and you will get respect from you colleagues.
+But it will make your intention more clear and you will get respect from you colleagues.
 
 
 Coding interview

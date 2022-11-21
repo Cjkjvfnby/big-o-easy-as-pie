@@ -1,4 +1,4 @@
-Weighting Tomatoes
+Weighting tomatoes
 ==================
 
 .. image:: /_static/images/tomato.jpg
@@ -22,7 +22,7 @@ How to weight algorithm?
 Can we compare them?
 --------------------
 
-We can compare algorithms if we abstract from hardware and input.
+We can compare algorithms if we replace hardware and input with abstraction.
 
 .. list-table:: Abstract elements
    :widths: 50 50
@@ -35,7 +35,7 @@ We can compare algorithms if we abstract from hardware and input.
    * - input
      - function that return a number of operations for input
 
-Now to weight our algorithm you need to weight two functions.
+Now to compare our algorithms you need to compare two functions.
 
 Functions that describe complexity
 ----------------------------------
@@ -49,7 +49,7 @@ Constant
 
     y=1
 
-Number of operation does not depends on the input size
+The Number of operation don't depends on the input size.
 
 .. code-block:: python
 
@@ -57,6 +57,8 @@ Number of operation does not depends on the input size
   >>> a[0]
   1
 
+.. image:: /_static/images/constant.png
+  :width: 400
 
 Linear
 ++++++
@@ -69,11 +71,14 @@ You have the same number of operations as the data size
 
 .. code-block:: python
 
-    >>> a = [1,2,3]
+    >>> a = [1, 2, 3]
     >>>  [x + 1 for x in a]
     [2, 3, 4]
     >>> min(a)
     1
+
+.. image:: /_static/images/linear.png
+  :width: 400
 
 Quadratic
 +++++++++
@@ -82,7 +87,7 @@ Quadratic
 
     y = x**2
 
-You have much more operations than data
+You have much more operations than data.
 
 .. code-block:: python
 
@@ -104,15 +109,6 @@ You have much more operations than data
        9  18  27  36  45  54  63  72  81  90
       10  20  30  40  50  60  70  80  90 100
 
-On a plane
-++++++++++
-
-.. image:: /_static/images/constant.png
-  :width: 400
-
-.. image:: /_static/images/linear.png
-  :width: 400
-
 .. image:: /_static/images/quadratic.png
   :width: 400
 
@@ -125,13 +121,12 @@ All together
 We are looking not into the difference in specific point,
 but into how difference between them grows with number of inputs.
 
-Quadratic grows much faster when linear. And Constant does not grow at all.
-
+Quadratic grows much faster than linear. And Constant does not grow at all.
 
 Smart names
 -----------
 
-The big O notation describes that functions.
+That way to compare algorithms by function are called big O notation.
 Instead of function you use **O**, and instead of **x** any letter,
 but usually **n** is used.
 

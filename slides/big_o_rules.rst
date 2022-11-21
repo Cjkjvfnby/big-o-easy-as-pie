@@ -1,11 +1,11 @@
 Big O notation rules
 ====================
 
-Only big numbers are took into account
---------------------------------------
+Only big numbers are taken into account
+---------------------------------------
 
 We are looking how this algorithm complexity grows with number of inputs, so we are looking to the numbers
-close to infinity. So the case close to 0 should be ignored. We dont care that linear and quadratic has intersection at 1.
+close to infinity. So the case close to 0 should be ignored. We don't care that linear and quadratic has intersection at 1.
 
 .. image:: /_static/images/close_scale.png
   :width: 400
@@ -13,7 +13,7 @@ close to infinity. So the case close to 0 should be ignored. We dont care that l
 When you add function, the less growing part could be ignored
 -------------------------------------------------------------
 
-Does y = x grows faster when y = x + 1,
+Does y = x grow faster when y = x + 1,
 or y = x\ :sup:`2` grows faster when y = x\ :sup:`2` + x?
 
 You can see that actually they grow pretty the same. So we can simplify.
@@ -39,11 +39,11 @@ Always drop the parts that grows slower.
      - 2O(n\ :sup:`2`),  O(2n\ :sup:`2`)
 
 
-Coefficient does not matters
-----------------------------
+Coefficient does not matter
+---------------------------
 
 Even on that small plot x\ :sup:`2` / 2 overrun 2x.
-So we could just drop coefficients, because they does not make huge difference.
+So we could just drop coefficients, because they do not make huge difference.
 
 .. image:: /_static/images/coefficients_compare.png
   :width: 400
@@ -77,4 +77,4 @@ Summary
 -------
 
 Complexity is not the execution time, you can drop less significant part easily.
-The same rules that are used for comparing the function between themself are used to simplify them.
+The same rules that are used for comparing the functions between themself are used to simplify them.

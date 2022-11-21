@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "big O notation easy as pie"
+project = "Big O notation easy as pie"
 copyright = "2022, Andrey"
 author = "Andrey"
 

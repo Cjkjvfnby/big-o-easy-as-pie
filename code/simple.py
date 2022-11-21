@@ -7,11 +7,9 @@ b = [1, 2, 3]  # O(n)
 b[0]  # O(1)
 
 
-c = [1, 2, 3]  # O(n)
-
-for x in c:  # O(n)
+for x in b:  # O(n)
     print(x, end=" ")  # O(1)
 
-min(c)  # O(n)
+min(b)  # O(n)
 
-d = [x + 1 for x in c]  # O(1)
+d = [x + 1 for x in b]  # O(n)

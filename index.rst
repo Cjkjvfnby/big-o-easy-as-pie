@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   slides/disclaimer
    slides/why
    slides/compare
    slides/big_o_rules

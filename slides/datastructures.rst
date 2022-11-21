@@ -22,10 +22,6 @@ Operations
 
     * - Operation
       - Average Case
-    * - Copy
-      -  O(n)
-    * - Insert
-      - O(n)
     * - Get Item
       - O(1)
     * - Set Item
@@ -44,11 +40,9 @@ Operations
 Python implementation
 +++++++++++++++++++++
 
-- `array`_,
-  I have never used it in practice.
-- `tuple`_,
-  same fixed size, but no changes are allowed.
-
+- `array`_, I have never used it in practice.
+- `tuple`_, same fixed size, but no changes are allowed.
+- `bytes`_, `str`_, fixed size, immutable, contain only specific items.
 
 Dynamic array
 -------------
@@ -66,14 +60,10 @@ So when length is about to exceed capacity, you have to enlarge.
 
     * - Operation
       - Average Case
-    * - Copy
-      -  O(n)
     * - Append
       - O(1)
     * - Pop last
       - O(1)
-    * - Pop intermediate
-      -  O(n)
     * - Insert
       - O(n)
     * - Get Item
@@ -114,8 +104,6 @@ A sequence of nodes with value and link to the next one.
 
     * - Operation
       - Average Case
-    * - Copy
-      - O(n)
     * - append
       - O(1)
     * - appendleft
@@ -141,13 +129,15 @@ Python implementation
 Summary
 -------
 
-Datastructures is an essential part of the everyday programmers life.
+Datastructures are used programmers all the time.
 Knowing what is inside is a good thing.
 `TimeComplexity`_ of basic Python collections, is the document that worth reading.
 
 
 .. _array.array: https://docs.python.org/3/library/array.html
 .. _tuple: https://docs.python.org/3/library/stdtypes.html#tuple
+.. _bytes: https://docs.python.org/3/library/stdtypes.html#bytes
+.. _str: https://docs.python.org/3/library/stdtypes.html#str
 .. _list: https://docs.python.org/3/library/stdtypes.html#list
 .. _collections.deque: https://docs.python.org/3/library/collections.html#collections.deque
 .. _TimeComplexity: https://wiki.python.org/moin/TimeComplexity
