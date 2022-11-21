@@ -1,5 +1,9 @@
 def my_max(items: list):
     """
+    Implement max, without using max.
+
+    List is never empty.
+
     >>> my_max([1, 2, 3])
     3
     """
@@ -7,6 +11,7 @@ def my_max(items: list):
 
 
 print(my_max([1, 2, 3]))
+
 
 if __name__ == "__main__":
     import doctest

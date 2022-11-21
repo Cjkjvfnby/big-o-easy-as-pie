@@ -35,6 +35,9 @@ draw_graphs/make_images.py
 
 ## Build documentation
 
+Using `make html` does not work with code samples.
+If page was not changed, they will not be rendered.
+
 ```shell
-make html
+sphinx-build . _build -W -a -j auto --keep-going
 ```

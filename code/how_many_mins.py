@@ -1,5 +1,7 @@
 def min_values(items: list):
     """
+    Count how many minimum values are present in list.
+
     >>> min_values([1, 1, 2, 3])
     2
     """
