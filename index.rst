@@ -1,3 +1,6 @@
+Big O notation easy as pie
+--------------------------
+
 .. image:: _static/images/title.jpg
   :width: 400
   :alt: Title
